@@ -1,0 +1,90 @@
+.divCity
+{
+    /*
+    border: green 4px solid;
+    text-align: center;
+  position: relative;
+    left: 0px; */
+    border: green 4px solid;
+    display: flex; /* Flexbox aktivieren */
+    flex-direction: column;
+
+    align-items: end; /* Vertikal ausrichten */
+    padding: 10px; /* Abstand im Container */
+    height: 150px; /* Optionale feste Höhe */
+
+}
+
+#NameCity
+{
+    border: black 4px solid;
+
+}
+
+#DateCity
+{
+    border: black 4px solid;
+
+}
+/* ___________für card________ */
+.karte
+{
+    display: flex; /* Karten horizontal anordnen */
+     justify-content: end; /* Karten zentrieren */
+    flex-wrap: nowrap; /* Umbrechen, falls nicht genug Platz */
+     gap: 15px; /* Abstand zwischen Karten */
+    background: burlywood;
+
+}
+.card {
+    border: 1px solid black;
+    width: 18%; /* Feste Breite */
+    height: 150px; /* Feste Höhe */
+    background: white;
+   /* display: flex;
+    flex-direction: column; /* Inhalte vertikal anordnen */
+    justify-content: space-between; /* Platz zwischen Header und Body */
+    align-items: center; /* Inhalte zentrieren */
+    overflow: hidden; /* Überlauf verstecken */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.header
+{
+    background: #007bff;
+    text-align: center;
+}
+.body
+{
+    background: sandybrown;
+    text-align: center;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* ------------end für card------------------*/
+
+/* ------------Footer------------------*/
+
+footer {
+    display: flex; /* Flexbox aktivieren */
+    justify-content: flex-end; /* Inhalt horizontal zentrieren */
+    margin-top: 20px; /* Abstand nach oben */
+    padding: 10px; /* Innenabstand für den Footer */
+    background-color: #f8f8f8; /* Optional: Hintergrundfarbe */
+    border-top: 2px solid #ccc; /* Optional: obere Linie */
+}
+
+footer select {
+    width: 150px; /* Breite des Dropdown-Menüs */
+    height: 40px; /* Höhe des Dropdown-Menüs */
+    font-size: 16px; /* Schriftgröße für Lesbarkeit */
+    padding: 5px; /* Innenabstand */
+    border: 1px solid black; /* Rahmen */
+    border-radius: 5px; /* Abgerundete Ecken */
+    background-color: white; /* Hintergrundfarbe */
+    cursor: pointer; /* Zeigt, dass das Element klickbar ist */
+}
+
+
